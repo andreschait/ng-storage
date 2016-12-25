@@ -1,5 +1,7 @@
 ng-storage
 =====================
+
+[![Join the chat at https://gitter.im/andreschait/ng-storage](https://badges.gitter.im/andreschait/ng-storage.svg)](https://gitter.im/andreschait/ng-storage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 An Angular module that gives you access to the browsers local storage
 
 [![NPM version][npm-image]][npm-url]
