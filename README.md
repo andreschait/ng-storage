@@ -7,7 +7,6 @@ An Angular module in the form of a framework which offers endless methods and fu
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][david-image]][david-url]
 [![License][license-image]][license-url]
-[![Downloads][downloads-image]][downloads-url]
 
 ##Table of contents:
 - [![Gitter][gitter-image]][gitter-url]
