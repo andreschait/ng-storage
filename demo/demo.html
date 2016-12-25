@@ -4,10 +4,11 @@
 <title>Demo of NG-Storage Module</title>
 <meta name="description" content="Demo of Angular Local Storage Module">
 <meta name="author" content="Andres Chait">
-<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
-<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
-<link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css">
+<link href="css/bootstrap-combined.min.css" rel="stylesheet">
+<link href="css/prettify.css" rel="stylesheet">
 <link href="demo-style.css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -25,19 +26,19 @@
 		<h1>Give it a try</h1>
 
 		<div ng-controller="DemoCtrl">
-			<p><input type="text" ng-model="localStorageDemo" placeholder="Start typing..."></p>
-			<blockquote class="well" ng-show="localStorageDemoValue">
-				<p ng-bind="localStorageDemoValue"></p>
+			<p><input type="text" ng-model="ngStorageDemo" placeholder="Start typing..."></p>
+			<blockquote class="well" ng-show="ngStorageDemoValue">
+				<p ng-bind="ngStorageDemoValue"></p>
 				<small>{{storageType}} value</small>
 			</blockquote>
 
 			<p><button ng-click="clearAll()">Clear All</button></p>
 		</div>
 
-		<p>The Angular Local Storage Module is meant to be a plug-and-play Angular module for accessing the browsers Local Storage API.</p>
+		<p>The NG-Storage Module is meant to be a plug-and-play Angular module for accessing the browsers Local Storage API.</p>
 	</div>
 
-	<p>Angular Local Storage offers you access to the browser local storage API through Angular but also allows has the following features:</p>
+	<p>NG-Storage offers you access to the browser local storage API through Angular but also allows has the following features:</p>
 
 	<ul>
 		<li>Control local storage access through key prefices (e.g. "myApp.keyName")</li>
@@ -122,8 +123,8 @@ var YourCtrl = function($scope,localStorageService,...){
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
-<script src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
-<script src="https://rawgit.com/andreschait/ng-local-storage/master/dist/angular-local-storage.min.js"></script>
+<script src="js/prettify.js"></script>
+<script src="https://rawgit.com/andreschait/ng-storage/master/dist/ng-storage.min.js"></script>
 <script src="demo-app.js"></script>
 </body>
 </html>
