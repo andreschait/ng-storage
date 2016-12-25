@@ -1,0 +1,12 @@
+{
+"name":"ng-storage",
+"homepage": "http://www.andres.co.il/web/demos/ng-storage/demo.html",
+"authors": ["andreschait <contact@andres.co.il>"],
+"description": "An Angular module in the form of a framework which offers endless methods and functions for dealing with the Browser's Local Storage",
+"main":"./dist/ng-storage.js",
+"keywords":["AngularJS","Angular","Storage","Local Storage","Session","Cookie"],
+"license":"MIT",
+"ignore":["src","node_modules","bower_components","test","tests","Gruntfile.js"],
+"dependencies":{"angular":"^1.x"},
+"devDependencies":{"angular-mocks": "^1.x"}
+}
