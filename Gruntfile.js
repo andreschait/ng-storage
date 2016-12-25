@@ -1,5 +1,5 @@
 module.exports = function(grunt){
-	'use strict';
+	'use stricts';
 	// Load the grunt tasks
 	require('load-grunt-tasks')(grunt);
 
