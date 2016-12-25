@@ -1,0 +1,39 @@
+{
+	"name": "angular-local-storage",
+	"version": "0.5.2",
+	"description": "An Angular module in the form of a framework which offers endless methods and functions for dealing with the Browser's Local Storage",
+	"homepage": "https://github.com/andreschait/ng-storage",
+	"main": "./index.js",
+	"scripts": {
+		"test": "grunt test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andreschait/ng-storage.git"
+	},
+	"keywords": [
+		"AngularJS",
+		"local",
+		"storage"
+	],
+	"author": "andreschait <contact@andres.co.il>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/andreschait/ng-storage/issues"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"grunt-contrib-concat": "*",
+		"grunt-contrib-jshint": "~0.12.0",
+		"grunt-contrib-uglify": "*",
+		"grunt-karma": "latest",
+		"jasmine-core": "^2.4.1",
+		"karma": "~0.13.19",
+		"karma-coverage": "^0.5.3",
+		"karma-jasmine": "~0.3.7",
+		"karma-phantomjs-launcher": "~1.0.0",
+		"load-grunt-tasks": "~3.4.0",
+		"phantomjs-prebuilt": "^2.1.4",
+		"time-grunt": "~1.3.0"
+	}
+}
