@@ -2,7 +2,6 @@ ng-storage
 =====================
 An Angular module in the form of a framework which offers endless methods and functions for dealing with the Browser's Local Storage
 
-[![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][david-image]][david-url]
