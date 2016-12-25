@@ -364,7 +364,7 @@ myApp.controller('MainCtrl', function($scope, localStorageService) {
 });
 ```
 
-Check out the full demo at http://gregpike.net/demos/ng-storage/demo.html
+Check out the full demo at http://www.andres.co.il/web/demos/ng-storage/demo.html
 
 ##Development:
 * Don't forget about tests.
